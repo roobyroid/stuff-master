@@ -10,8 +10,8 @@ import { ROUTES } from '../../utils/routes';
 import Cart from '../Cart/Cart';
 
 const AppRoutes = () => (
-	<Routes basename="/stuff-master">
-		<Route path="/" element={<Home />} />
+	<Routes basename="stuff-master">
+		<Route path="/stuff-master" element={<Home />} />
 		<Route path={ROUTES.PRODUCT} element={<SingleProduct />} />
 		<Route path={ROUTES.PROFILE} element={<Profile />} />
 		<Route path={ROUTES.CATEGORY} element={<SingleCategory />} />
