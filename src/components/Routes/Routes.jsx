@@ -11,7 +11,7 @@ import Cart from '../Cart/Cart';
 
 const AppRoutes = () => (
 	<Routes basename="stuff-master">
-		<Route index element={<Home />} />
+		<Route path="/" element={<Home />} />
 		<Route path={ROUTES.PRODUCT} element={<SingleProduct />} />
 		<Route path={ROUTES.PROFILE} element={<Profile />} />
 		<Route path={ROUTES.CATEGORY} element={<SingleCategory />} />
